@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide vertical scrollbar */
+.hide-scrollbar {
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+
+
+
+  .chat{
+    scroll-behavior: smooth;
+  }
+
+  .code-editor-header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .code-editor-container {
+    height: 300px; /* Adjust height */
+    border: 1px solid #ddd;
+    background-color: #1e1e1e;
+  }
