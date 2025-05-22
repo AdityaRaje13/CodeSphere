@@ -15,6 +15,8 @@ CodeSphere is a MERN-stack web application designed for real-time collaborative 
 
 * Socket.IO: Powers real-time, bidirectional communication for live coding, cursor tracking, and chat updates.
 
+* bcrypt.js: A JavaScript library for hashing passwords, used in the backend (Node.js/Express) to securely store user credentials, ensuring robust authentication with salted hashing.
+
 * JSON Web Tokens (JWT): Used for secure user authentication and authorization, ensuring protected access to project and user-specific features.
 
 * Tailwind CSS: A utility-first CSS framework for styling the UI with responsive designs, glassmorphism, gradients, and animations.
@@ -22,6 +24,8 @@ CodeSphere is a MERN-stack web application designed for real-time collaborative 
 * Gemini AI: Integrated for AI-driven code assistance, including reviews, suggestions, and error detection.
 
 * React Router: Manages client-side routing for navigating between project dashboards, chat, and user settings.
+
+* Framer Motion: A React animation library used for advanced, declarative animations, such as cursor tracking visuals and interactive UI elements, providing smooth and performant transitions.
 
 
 # *Features*
